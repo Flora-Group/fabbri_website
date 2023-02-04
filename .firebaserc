@@ -1,5 +1,14 @@
 {
   "projects": {
-    "default": "fabbri-exports"
+    "default": "fabri-website"
+  },
+  "targets": {
+    "fabri-website": {
+      "hosting": {
+        "fabbri-exports": [
+          "fabbriexports.com"
+        ]
+      }
+    }
   }
 }
