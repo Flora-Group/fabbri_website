@@ -81,14 +81,7 @@
           }
         },
         "deploy": {
-          "builder": "@angular/fire:deploy",
-          "options": {
-            "prerender": false,
-            "ssr": false,
-            "browserTarget": "fabbri-exports:build:production",
-            "firebaseProject": "fabri-website",
-            "firebaseHostingSite": "fabbriexports.com"
-          }
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
